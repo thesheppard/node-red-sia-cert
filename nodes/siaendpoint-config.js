@@ -401,7 +401,7 @@ module.exports = (RED) => {
                 servertcp = net.createServer(function (sock) {
                     let ack = null;
                     // RED.log.info('siaendpointConfig: New client connected: ' + remoteAddress);
-                    var remoteAddress = sock.address().address + ':' + sock.address().port;
+                    var remoteAddress = '127.0.0.1' + ':' + sock.address().port;
                     sock.on('data', (data) => {                        
                         // data = Buffer.from(data,'binary');
                         // data = new Buffer(data);
