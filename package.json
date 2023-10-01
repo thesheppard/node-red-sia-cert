@@ -29,8 +29,8 @@
   },
   "node-red": {
     "nodes": {
-      "siaendpoint-config": "nodes/siaendpoint-config.js",
-      "SIAUltimate": "nodes/SIAUltimate.js"
+      "siaendpoint-config-cert": "nodes/siaendpoint-config-cert.js",
+      "SIAUltimate-cert": "nodes/SIAUltimate-cert.js"
     }
   },
   "bugs": {
