@@ -103,5 +103,5 @@ module.exports = function (RED) {
 
 	}
 
-	RED.nodes.registerType("SIAUltimate", SIAUltimate);
+	RED.nodes.registerType("SIAUltimate-certs", SIAUltimate);
 }
