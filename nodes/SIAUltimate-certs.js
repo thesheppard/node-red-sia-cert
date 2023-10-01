@@ -1,4 +1,4 @@
-const siaendpointConfig = require("./siaendpoint-config-cert");
+const siaendpointConfig = require("./siaendpoint-config-certs.js");
 
 
 module.exports = function (RED) {
