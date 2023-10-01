@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-sia-cert",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "ARC Broker for SIA certified alarm systems",
   "author": "thesheppard (https://github.com/thesheppard)",
   "dependencies": {

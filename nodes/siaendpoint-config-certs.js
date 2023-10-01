@@ -454,7 +454,7 @@ module.exports = (RED) => {
                 servertcp.listen(node.port, () => {
                     log
                     try {
-                        let text = 'siaendpointConfig: SIA Server listening on IP-Adress (TCP): ' + servertcp;
+                        let text = 'siaendpointConfig: SIA Server listening on IP-Adress (TCP): ' + JSON.stringify(servertcp);
                         RED.log.info(text);
                     } catch (error) {
                         RED.log.error("siaendpointConfig: Unable to listen to the TCP server: " + error.message + " do you have another config node with the same port?");
