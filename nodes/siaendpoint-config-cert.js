@@ -898,7 +898,7 @@ module.exports = (RED) => {
     }
 
 
-    RED.nodes.registerType("siaendpoint-config", siaendpointConfig, {
+    RED.nodes.registerType("siaendpoint-config-cert", siaendpointConfig, {
         credentials: {
             accountnumber: { type: "text" },
             password: { type: "password" }
