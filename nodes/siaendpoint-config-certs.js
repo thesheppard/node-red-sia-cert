@@ -905,4 +905,3 @@ module.exports = (RED) => {
         }
     });
 }
-    ;
